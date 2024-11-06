@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clasifica las Letras</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <img src="images/logofi.png" alt="Mascota" class="game-image">
+        <h1>Clasifica las Letras</h1>
+        <div id="game">
+            <div class="letter" draggable="true" data-type="alta">A</div>
+            <div class="letter" draggable="true" data-type="baja">e</div>
+            <div class="letter" draggable="true" data-type="alta">H</div>
+            <div class="letter" draggable="true" data-type="redonda">o</div>
+            <div class="drop-zone" data-type="alta">Astas Altas</div>
+            <div class="drop-zone" data-type="baja">Astas Bajas</div>
+            <div class="drop-zone" data-type="redonda">Letras Redondas</div>
+        </div>
+        <div id="feedback"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
